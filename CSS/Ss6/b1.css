@@ -1,0 +1,40 @@
+*{
+    text-align: center;
+}
+
+.heading1{
+    background-color: rgb(65, 144, 255);
+    padding: 20px;
+}
+
+.heading2{
+    color: white;
+}
+
+.nav1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.ta{
+    margin-left: 440px;
+    margin-top: 30px;
+}
+
+.image{
+    border-width: 2px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: rgb(65, 144, 255);
+    margin-right: 5px;
+}
+
+.p1{
+    margin-left: 5px;
+}
+
+.end{
+    background-color: rgb(201, 213, 224);
+    padding: 1px;
+    margin-top: 20px;
+}

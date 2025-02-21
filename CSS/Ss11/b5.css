@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.container{
+    margin: auto;
+    max-width: 60vw;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.nav-logo{
+    flex-grow: 1;
+    font-size: 50px;
+    color: rgb(117, 16, 33);
+    text-align: center;
+}
+.nav-content {
+    background-color: rgb(117, 16, 33);
+    flex-grow: 20;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.main-content {
+    background-color: rgb(117, 16, 33);
+    flex-grow: 2.8;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.main-aside {
+    background-color: rgb(117, 16, 33);
+    min-height: 50vh;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    background-color: rgb(117, 16, 33);
+    margin-top: 20px;
+    flex-basis: calc(33.33% - 14px);
+    min-height: calc(50vh / 2 - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.menu-bar{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) and (min-width:768px){
+    .main{
+        flex-direction: column;
+    }
+
+    .main-content{
+        min-height: 50vh;
+    }
+
+    .main-aside{
+        min-height: 25vh;
+    }
+
+    .box-1, .box-2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .column {
+        flex-basis: calc(50% - 10px); 
+        min-height: calc(50vh / 3 - 20px); 
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .nav{
+        position: relative;
+        margin-bottom: 60px;
+    }
+
+    .nav-content{
+        position: absolute;
+        top: 90px;
+        width: 100%;
+    }
+
+    .nav-logo{
+        text-align: left;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .main-content{
+        min-height: 50vh;
+    }
+
+    .main-aside{
+        min-height: 25vh;
+    }
+
+    .column{
+        flex-basis: 100%;
+    }
+
+    .menu-bar{
+        display: block;
+        background-color: rgb(117, 16, 33);
+        font-size: 50px;
+        padding: 0px 25px;
+    }
+}

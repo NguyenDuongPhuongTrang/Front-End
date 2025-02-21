@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box1{
+    width: 50%;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.box2{
+    width: 50%;
+    display: flex;
+    gap: 5px;
+    padding: 0px 10px;
+}
+
+.big{
+    background-color: rgb(10, 10, 84);
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+}
+
+.small{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.small1{
+    background-color: rgb(10, 10, 84);
+    width: 49.3%;
+    padding: 20px;
+    text-align: center;
+}

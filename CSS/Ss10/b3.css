@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: auto;
+    width: 30%;
+    height: 600px;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    position: relative;
+}
+
+.img1{
+    height: 45%;
+    background-image: url('https://watermark.lovepik.com/photo/40089/3074.jpg_wh1200.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.sport{
+    display: inline-block;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.infor{
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.img2{
+    width: 60px;
+    height: 60px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvdt3vH3FBrtBEyM7nPk-ZRYRGXthCIr0SvQ&s');
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.text1{
+    color: rgb(146, 146, 146);
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.text2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.text3{
+    padding: 20px 0px;
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+}

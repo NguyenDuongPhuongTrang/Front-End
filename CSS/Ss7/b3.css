@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.star {
+    padding: 10px;
+    font-size: 30px;
+    color: white ;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.img{
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.p1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.p2 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.p3 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.p4 {
+    margin-top: 20px;
+}
+

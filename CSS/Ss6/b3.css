@@ -1,0 +1,90 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.container .heading{
+    margin-left: 20px;
+}
+
+.container .nav{
+    float: right;
+    margin-left: auto;
+    margin-top: 33px;
+    margin-right: 20px;
+}
+
+.container .nav a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.main .sec1{
+    display: flex;
+    padding: 30px;
+    padding-left: 50px;
+    background-color: rgb(219, 225, 231);
+}
+
+.main .sec1 .img{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 60px;
+
+}
+
+.main .sec1 .p1{
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.main .sec2 {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.main .sec2 .p2{
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+.main .sec2 .button1,.button2,.button3,.button4{
+    padding: 15px;
+    width: 360px;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.main .sec2 .button1{
+    margin-right: 10px;
+}
+
+.main .sec2 .button2{
+    margin-right: 10px;
+}
+
+.main .sec2 .button3{
+    margin-right: 10px;
+}
+
+.main .sec2 .button4{
+    margin-right: 10px;
+}
+
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgb(219, 225, 231);
+    padding: 5px;
+}

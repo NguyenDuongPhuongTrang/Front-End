@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(211, 211, 211);
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid black;
+}
+
+.container .content{
+    width: 24.3%;
+    height: 25%;
+    background-color: rgb(18, 191, 18);
+    color: white;
+    border-radius: 3px;
+}
+
+.content .p{
+    text-align: center;
+    padding: 15px;
+}

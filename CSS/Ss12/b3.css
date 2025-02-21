@@ -1,0 +1,13 @@
+
+.label-fix {
+    margin-top: 20px;
+}
+
+.modal-footer { 
+    display: flex;
+    justify-content: start;
+    border-top: none;
+    padding: 0px 13px 13px 13px;
+}
+
+

@@ -1,0 +1,8 @@
+body{
+    margin: 20px;
+}
+.sex{
+    display: flex;
+    gap: 20px;
+}
+

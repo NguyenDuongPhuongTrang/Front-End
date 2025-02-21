@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: inline-block;
+    background-color: rgb(74, 44, 97);
+}
+
+.td1{
+    padding: 20px;
+    color: white;
+}
+
+.td1 .name{
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid rgb(163, 161, 161);
+    border-radius: 3px;
+    background-color: rgb(74, 44, 97);
+}
+
+.td2{
+    padding-right: 20px;
+    color: white;
+}
+
+.td2 .email{
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid rgb(163, 161, 161);
+    border-radius: 3px;
+    background-color: rgb(74, 44, 97);
+}
+
+.sec2{
+    margin-left: 20px;
+    color: white;
+}
+
+.sec2 .text{
+    width: 355px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: rgb(74, 44, 97);
+}
+
+.sec3{
+    padding: 20px;
+}
+
+.sec3 .btn{
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+

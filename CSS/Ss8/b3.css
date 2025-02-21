@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.heading{
+    margin: 20px 80px;
+    display: inline-block;
+    border-bottom: 2px solid orangered;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.table{
+    margin: 40px 0px;
+    border-collapse: collapse;
+}
+
+.td1, .td2, .td3{
+    border-right: 2px solid gray;
+    padding-left: 80px;
+}
+
+.tr2 .td2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tr2 .td1, .tr2 .td2, .tr2 .td3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.tr3 .td1, .tr3 .td2, .tr3 .td3{
+    padding-right: 80px;
+}
+
+.tr4 .td1 .btn1{
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+
+.tr4 .td2 .btn2{
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+
+.tr4 .td3 .btn3{
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+
+

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table{
+    border-collapse: collapse;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    width: 1000px;
+}
+
+.td1{
+    border-right: 2px solid gray;
+}
+
+.tr1 .td1, .tr1 .td2{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.tr2 .td1, .tr2 .td2{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tr3 .td1, .tr3 .td2{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tr4 .td1, .tr4 .td2{
+    text-align: center;
+    padding: 30px;
+}
+
+.tr5 .td1, .tr5 .td2{
+    padding-left: 100px;
+    padding-right: 75px;
+}
+
+.tr6 .td1, .tr6 .td2{
+    padding: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    padding: 10px 30px;
+    font-weight: bolder;
+}

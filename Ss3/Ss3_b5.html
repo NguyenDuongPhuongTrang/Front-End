@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/PhuongTrang" method="post">
+        <label>Họ và tên: </label>
+        <input required type="text" name="Họ và tên">
+        <br>
+        <label>Chọn ngày giờ:</label>
+        <input type="datetime-local" name="Thời gian">
+        <br>
+        <label>Loại dịch vụ</label>
+        <select name="service" id="service">
+            <option value="service">Tư vấn</option>
+            <option value="service">Giao dịch</option>
+            <option value="service">Mua hàng</option>
+        </select>
+        <br>
+        <label for="note">Ghi chú:</label>
+        <textarea required name="note" id="note"></textarea>
+        <br>
+        <button>Đặt lịch</button>
+    </form>
+</body>
+</html>

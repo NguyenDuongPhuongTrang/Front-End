@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 0;
+}
+
+.box{
+    display: flex;  
+    height: 500px;
+    gap: 20px;
+}
+
+.box1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text{
+    height: 25%;
+    background-color: rgb(232, 230, 230);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sport{
+    font-size: 40px;
+    font-weight: bolder;
+    background: #000000;
+    background: linear-gradient(to bottom, #000000 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.img1{
+    height: 75%;
+    background-image: url('https://cdn-media.sforum.vn/storage/app/media/wp-content/uploads/2023/06/hinh-nen-bong-da-thumb.jpg');
+    background-position: center;
+    border-radius: 10px;
+}
+
+.img2{
+    height: 75%;
+    background-image: url('https://mbmart.com.vn/100/329/420/products/qua-bong-ro-size-7-sports-2.jpg.webp');
+    background-position: center;
+    border-radius: 10px;
+}
+
+.img3{
+    height: 75%;
+    background-image: url('https://baohaauto.vn/wp-content/uploads/xe-hoi-the-thao-gia-re-5-1.jpg');
+    background-position: center;
+    border-radius: 10px;
+}
+
+.img4{
+    height: 75%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqS6VF85XeqiXlIA_MCKHp4iulEucG5o6_cw&s');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

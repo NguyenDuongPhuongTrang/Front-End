@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 45px;
+    align-items: center;
+}
+
+.nav-1{
+    display: inline-block;
+    border: 2px solid pink;
+    color: pink;
+    background-color: pink;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+
+.nav-2{
+    display: flex;
+    color: pink;
+    margin-right: 30px;
+    gap: 10px;
+}
+
+.nav-item{
+    width: 70px;
+    height: 2px;
+    background-color: pink;
+}
+
+.big-box{
+    padding: 30px;
+    width: 100%;
+}
+
+.header{
+    background-color: rgb(175, 8, 86);
+    height: 200px;
+}
+
+.box-1 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.item-1 {
+    flex: 1;
+    background-color: rgb(212, 74, 120);
+    min-height: 100px;
+    margin: 30px 0px;
+}
+
+.box-2 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.item-2 {
+    width: 50%;
+    background-color: rgb(199, 122, 135);
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: pink;
+    height: calc(100vh - 650px);
+
+}
+
+@media screen and (max-width: 1200px) and (min-width:768px) {
+    .box-1{
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .item-1{
+        flex-grow: 1;
+        flex-basis: calc(100% / 2 - 20px);
+        margin: 0;
+    }
+
+    .box-2{
+        margin: 20px 0px;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .item-2{
+        margin: 0;
+        flex-grow: 1;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .nav-2{
+        flex-direction: column;
+        gap: 3px;
+    }
+    .nav-item{
+        width: 20px;
+    }
+
+    .box-1{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .item-1{
+        margin: 0;
+        flex-grow: 1;
+        flex-basis: calc(100% -20px);
+    }
+
+    .box-2{
+        margin: 20px 0px;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .item-2{
+        margin: 0;
+        flex-grow: 1;
+        width: 100%;
+    }
+    
+}

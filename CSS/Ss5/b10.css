@@ -1,0 +1,29 @@
+html{
+    background-color: white;
+}
+
+body{
+    width: 500px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: aliceblue;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+.name{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.i1{
+    width: 220px;
+}
+
+.i2{
+    width: 220px;
+}

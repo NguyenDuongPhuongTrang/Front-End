@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 5px;
+    line-height: 50px;
+}
+
+.header-1{
+    font-size: 30px;
+}
+
+.header-2{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.box-1{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    line-height: 40px;
+    padding: 20px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.box-2{
+    text-align: center;
+    height: calc(100vh - 460px);
+    padding: 50px;
+}
+
+.box-2 .square{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box-2 .cnt3{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    color: rgb(111, 111, 111);
+}
+
+.square .minibox{
+    padding: 40px 20px;
+    border-radius: 5px;
+    background-color: rgb(196, 196, 196);
+    color: gray;
+}
+
+.box-3{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    line-height: 40px;
+    padding: 20px;
+}
+
+.cnt1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cnt2{
+    color: rgb(78, 77, 77);
+}
+
+.footer{
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
